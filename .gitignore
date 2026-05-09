@@ -1,3 +1,14 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+# Git installation files (should not be in game repo)
+Git/
+
+# Godot import files (auto-generated)
+*.import
+
+# Uninstaller files
+unins*.dat
+unins*.exe
+unins*.msg
